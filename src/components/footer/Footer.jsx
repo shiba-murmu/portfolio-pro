@@ -43,7 +43,7 @@ function Footer() {
           <li className="flex gap-1 items-center">
             <CiLinkedin />
             <a
-              href="https://www.linked.com/10/shibamurmu"
+              href="https://www.linkedin.com/in/shiba-murmu-664172327"
               target="_blank"
               rel="noopener noreffer"
               className="hover:underline"
@@ -54,10 +54,10 @@ function Footer() {
 
           <li className="flex gap-1 items-center">
             <a
-              href="https://github.com/10shiba"
+              href="https://github.com/shiba-murmu"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-1"
+              className="flex items-center gap-1 hover:underline"
             >
               <FaGithub />
               github.com/shiva
@@ -68,10 +68,7 @@ function Footer() {
               <FiPhone />
               +91 6204476413
             </a>
-            <span className="mx-1">/</span>
-            <a href="tel:+91 8928363822" className="flex items-center gap-1">
-              8928363822
-            </a>
+            
           </li>
         </ul>
       </div>
