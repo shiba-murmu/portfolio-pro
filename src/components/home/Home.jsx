@@ -1,12 +1,15 @@
 import React from "react";
 import Cv from "../../assets/Shiva.pdf";
+import avatarimage from '../../assets/netflix.jpg'
+import TextChanger from "../../TextChanger";
+
 function Home() {
   return (
     <>
       <div className="text-white flex w-full justify-between items-start p-10 md:p-20">
         <div className="md:w-2/4 md:pt-10">
           <h1 className="text-4xl md:text-7xl font-bold flex leading-normal translate-lighter">
-            Hi I'm Shiva
+            <TextChanger />
           </h1>
           <p className="text-sm md:text-2xl tracking-tight">
             A passionate software developer crafting efficient, scalable, and
